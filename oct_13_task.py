@@ -40,6 +40,8 @@ year=int(input("enter the year:"))
 leap_year=["leapyear" if year%4==0 or year%100!=0 and year%400==0 else "not a leap year"]
 print(leap_year)
 
+---------------or----------------------------------------
+
 leap_year= int(input("Please enter year: "))
 if leap_year%4==0 or leap_year%100!=0 and leap_year%400==0 :
     print (f'{leap_year} is a Leap Year')
